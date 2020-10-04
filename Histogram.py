@@ -12,4 +12,4 @@ HistogramImg = cv2.calcHist([HSVImg], [0, 1], None, [180, 256], [0, 180, 0, 256]
 plt.imshow(HistogramImg, interpolation='nearest')
 plt.show()
 
-\
+
